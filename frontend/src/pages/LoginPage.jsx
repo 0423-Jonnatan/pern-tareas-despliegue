@@ -39,7 +39,7 @@ function LoginPage() {
           />
           {errors.email && <p className="text-red-500">Email is required</p>}
 
-          <Label htmlFor="password">Password</Label>
+          <Label htmlFor="password">Contraseña</Label>
           <Input
             type="password"
             placeholder="Password"
